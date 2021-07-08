@@ -406,6 +406,10 @@ body {
 }
 
 .client-list {
+  
+}
+
+.client-cont {
   display: flex;
   justify-content: space-between;
 }
