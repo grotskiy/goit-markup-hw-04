@@ -264,9 +264,7 @@ body {
 }
 
 .detail-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 25px 100px;
 }
 
 .detail-head {
