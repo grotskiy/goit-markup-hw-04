@@ -152,6 +152,12 @@ body {
   color: var(--accent-color-logo);
 }
 
+.tel-icon {
+  width: 10px;
+  margin-right: 10px;
+  height: 16px;
+}
+
 .tel-link {
   padding-top: 32px;
   padding-bottom: 32px;
