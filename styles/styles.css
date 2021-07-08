@@ -122,10 +122,14 @@ body {
   color: var(--accent-color-logo);
 }
 
-.header-mail {
+.header-contacts{
   display: flex;
   align-items: center;
   margin-left: auto;
+}
+
+.header-mail {
+
 }
 
 .mail-icon {
