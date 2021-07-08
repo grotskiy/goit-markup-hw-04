@@ -122,6 +122,18 @@ body {
   color: var(--accent-color-logo);
 }
 
+.header-mail {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.mail-icon {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+
 .mail-link {
   margin-left: auto;
   margin-right: 50px;
