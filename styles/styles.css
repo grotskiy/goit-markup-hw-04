@@ -392,6 +392,11 @@ body {
 .clients-section {
 
 }
+
+.clients-section-list {
+  display: flex;
+  justify-content: center;
+}
 .clients-title {
   margin-bottom: 50px;
   font-weight: 700;
