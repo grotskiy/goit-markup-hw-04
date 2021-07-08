@@ -256,10 +256,9 @@ body {
 }
 
 .detail-cont {
-
   display: flex;
   align-items: center;
-  justify-content: center;
+  padding: 20px 0;
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
@@ -366,6 +365,7 @@ body {
 
 .social-list {
   display: flex;
+  justify-content: space-between;
 }
 
 .social-list-item {
@@ -381,6 +381,7 @@ body {
   border-radius: 50%;
   background-color: var(--accent-color-four);
 }
+
 .social-list-icon {
   width: 20px;
   height: 20px;
