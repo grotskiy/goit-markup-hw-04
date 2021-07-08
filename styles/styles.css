@@ -256,6 +256,8 @@ body {
 }
 
 .detail-cont {
+  display: flex;
+  justify-content: center;
   padding: 25px 0;
   height: 120px;
   margin-bottom: 30px;
@@ -264,6 +266,7 @@ body {
 }
 
 .detail-icon {
+  width: 70px;
   height: 70px;
 }
 
@@ -397,9 +400,12 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
 .clients-item {
+  height: 92px;
 
 }
+
 .clients-list-link {
   height: 92px;
   border: 1px solid #AFB1B8;
