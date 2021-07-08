@@ -263,8 +263,13 @@ body {
   width: 270px;
 }
 
+.detail-cont {
+  padding: 20px 0;
+  display: flex;
+}
+
 .detail-icon {
-  justify-content: space-between;
+
 }
 
 .detail-head {
