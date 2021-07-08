@@ -256,8 +256,10 @@ body {
 }
 
 .detail-cont {
-  padding: 20px 0;
+
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
@@ -342,6 +344,8 @@ body {
 .team-list-desc {
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .team-name {
@@ -358,6 +362,28 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--accent-color-thr);
+}
+
+.social-list {
+  display: flex;
+}
+
+.social-list-item {
+
+}
+
+.social-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--accent-color-four);
+}
+.social-list-icon {
+  width: 20px;
+  height: 20px;
 }
               
 /* portfolio */
