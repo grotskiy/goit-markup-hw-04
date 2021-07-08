@@ -133,10 +133,12 @@ body {
 }
 
 .mail-icon {
-  margin-right: 10px;
+
 }
 
 .mail-link {
+  display: flex;
+  align-items: center;
   margin-left: auto;
   margin-right: 50px;
   padding-top: 32px;
@@ -160,10 +162,12 @@ body {
 }
 
 .tel-icon {
-  height: 16px;
+
 }
 
 .tel-link {
+  display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
   font-family: var(--main-font);
