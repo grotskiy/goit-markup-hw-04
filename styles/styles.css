@@ -264,7 +264,7 @@ body {
 }
 
 .detail-icon {
-  padding: 25px 100px;
+  justify-content: space-between;
 }
 
 .detail-head {
