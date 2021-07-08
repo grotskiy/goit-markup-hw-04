@@ -394,8 +394,7 @@ body {
 }
 
 .clients-section-list {
-  display: flex;
-  justify-content: center;
+
 }
 .clients-title {
   margin-bottom: 50px;
