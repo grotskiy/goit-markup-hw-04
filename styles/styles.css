@@ -256,10 +256,7 @@ body {
 }
 
 .detail-cont {
-  display: flex;
-  align-items: center;
   padding: 25px 0;
-  width: 270px;
   height: 120px;
   margin-bottom: 30px;
   background: #F5F4FA;
@@ -267,7 +264,8 @@ body {
 }
 
 .detail-icon {
-
+  width: 70px;
+  height: 70px;
 }
 
 .detail-head {
