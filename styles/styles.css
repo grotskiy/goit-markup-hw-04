@@ -325,7 +325,7 @@ body {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.67;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -393,7 +393,12 @@ body {
 
 }
 .clients-title {
-
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .client-list {
@@ -402,15 +407,15 @@ body {
 }
 
 .clients-item {
-  height: 92px;
-
-}
-
-.clients-list-link {
+  width: 170px;
   height: 92px;
   border: 1px solid #AFB1B8;
   box-sizing: border-box;
   border-radius: 4px;
+}
+
+.clients-list-link {
+
 }
 .clients-list-icon {
 
