@@ -264,7 +264,6 @@ body {
 }
 
 .detail-icon {
-  width: 70px;
   height: 70px;
 }
 
@@ -385,6 +384,32 @@ body {
   height: 20px;
 }
               
+/* clients */
+
+.clients-section {
+
+}
+.clients-title {
+
+}
+
+.client-list {
+  display: flex;
+  justify-content: space-between;
+}
+.clients-item {
+
+}
+.clients-list-link {
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.clients-list-icon {
+
+}
+
 /* portfolio */
 
 .port-main-ul {
