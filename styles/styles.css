@@ -391,8 +391,12 @@ body {
 
 .social-list-link:hover,
 .social-list-link:focus {
-  color: var(--accent-color-four);
+  fill: var(--accent-color-four);
   background-color: var(--accent-background-color);
+}
+
+.social-list-link.current {
+  color: var(--accent-color-logo);
 }
 
 .social-list-icon {
