@@ -141,16 +141,6 @@ body {
   fill: #757575;
 }
 
-.mail-icon:hover,
-.mail-icon:focus {
-  color: var(--accent-color-logo);
-}
-
-.tel-icon:hover,
-.tel-icon:focus {
-  color: var(--accent-color-logo);
-}
-
 .mail-link {
   display: flex;
   align-items: center;
@@ -397,6 +387,12 @@ body {
   border-radius: 50%;
   fill: #757575;
   background-color: var(--accent-color-four);
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  color: var(--accent-color-four);
+  background-color: var(--accent-background-color);
 }
 
 .social-list-icon {
