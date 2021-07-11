@@ -431,8 +431,10 @@ body {
 }
 
 .clients-list-link {
+  text-align: center;
   fill: #757575;
 }
+
 .clients-list-icon {
   
 }
