@@ -528,6 +528,10 @@ body {
   padding-bottom: 60px;
 }
 
+.footer-main {
+  display: block;
+}
+
 .footer-logo {
 
 }
@@ -588,4 +592,22 @@ body {
 .footer-tel:hover,
 .footer-tel:focus {
   color: var(--accent-color-logo);
+}
+
+/* footer-social */
+
+.footer-social {
+
+}
+.footer-social-list {
+
+}
+.footer-social-item {
+
+}
+.footer-social-list-link {
+
+}
+.footer-social-list-icon {
+
 }
