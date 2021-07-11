@@ -141,6 +141,16 @@ body {
   fill: #757575;
 }
 
+.mail-icon:hover,
+.mail-icon:focus {
+  color: var(--accent-color-logo);
+}
+
+.tel-icon:hover,
+.tel-icon:focus {
+  color: var(--accent-color-logo);
+}
+
 .mail-link {
   display: flex;
   align-items: center;
