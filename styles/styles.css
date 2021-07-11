@@ -134,7 +134,6 @@ body {
 
 .mail-icon {
   margin-right: 10px;
-  color: var(--accent-color-thr);
 }
 
 .mail-link {
@@ -164,7 +163,6 @@ body {
 
 .tel-icon {
   margin-right: 10px;
-  color: var(--accent-color-thr);
 }
 
 .tel-link {
