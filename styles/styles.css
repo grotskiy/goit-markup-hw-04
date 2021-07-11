@@ -395,10 +395,6 @@ body {
   background-color: var(--accent-background-color);
 }
 
-.social-list-link.current {
-  color: var(--accent-color-logo);
-}
-
 .social-list-icon {
   width: 20px;
   height: 20px;
@@ -440,6 +436,12 @@ body {
 
 .clients-list-link {
   fill: #757575;
+}
+
+.clients-list-link:focus,
+.clients-list-link:hover {
+  border-color: var(--accent-color-logo);
+  fill: var(--accent-color-logo);
 }
 
 .clients-list-icon {
@@ -640,6 +642,12 @@ body {
   border-radius: 50%;
   fill:#FFFFFF;
   background-color: var(--accent-background-color-four);
+}
+
+.footer-social-list-link:focus,
+.footer-social-list-link:hover {
+  border-color: var(--accent-color-logo);
+  fill: var(--accent-color-logo);
 }
 
 .footer-social-list-icon {
