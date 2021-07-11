@@ -646,8 +646,8 @@ body {
 
 .footer-social-list-link:focus,
 .footer-social-list-link:hover {
-  border-color: var(--accent-color-logo);
-  fill: var(--accent-color-logo);
+  fill: var(--accent-color-four);
+  background-color: var(--accent-background-color);
 }
 
 .footer-social-list-icon {
