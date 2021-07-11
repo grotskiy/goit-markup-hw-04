@@ -138,7 +138,7 @@ body {
 .mail-icon,
 .tel-icon {
   margin-right: 10px;
-  color: var(--accent-color-thr);
+  fill: #757575;
 }
 
 .mail-link {
@@ -385,13 +385,13 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  fill: #757575;
   background-color: var(--accent-color-four);
 }
 
 .social-list-icon {
   width: 20px;
   height: 20px;
-  color: var(--accent-color-fth);
 }
               
 /* clients */
@@ -431,10 +431,10 @@ body {
 }
 
 .clients-list-link {
-
+  fill: #757575;
 }
 .clients-list-icon {
-  color: var(--accent-color-fth);
+
 }
 
 /* portfolio */
@@ -629,11 +629,11 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  fill:#FFFFFF;
   background-color: var(--accent-background-color-four);
 }
 
 .footer-social-list-icon {
   width: 20px;
   height: 20px;
-  color: var(--accent-color-four);
 }
