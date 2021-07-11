@@ -412,12 +412,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.client-list {
-
-
-}
-
-.client-cont {
+.clients-list {
   display: flex;
   justify-content: space-between;
 }
@@ -425,13 +420,15 @@ body {
 .clients-item {
   width: 170px;
   height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid #AFB1B8;
   box-sizing: border-box;
   border-radius: 4px;
 }
 
 .clients-list-link {
-  text-align: center;
   fill: #757575;
 }
 
