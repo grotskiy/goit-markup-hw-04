@@ -443,13 +443,12 @@ body {
 
 .clients-icon:hover,
 .clients-icon:focus {
-  fill: var(--accent-color-logo);
   border-color: var(--accent-color-logo);
 }
 
-.clients-list:hover .clients-icon,
-.clients-list:focus .clients-icon {
-
+.client-list:hover .clients-icon,
+.client-list:focus .clients-icon {
+  fill: #2196f3;
 }
 
 /* portfolio */
