@@ -448,14 +448,17 @@ body {
   height: 92px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
-  fill: var(--accent-color-fth);
+  fill: #AFB1B8;
 }
 
 .clients-list-link:hover .clients-icon, 
 .clients-list-link:focus .clients-icon {
-  border-color: var(--accent-color-logo);
   fill: var(--accent-color-logo);
-  cursor: pointer;
+}
+
+.clients-list-link:hover, 
+.clients-list-link:focus {
+  border-color: var(--accent-color-logo);
 }
 
 /* portfolio */
