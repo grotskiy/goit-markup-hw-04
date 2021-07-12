@@ -156,6 +156,12 @@ body {
   color: var(--accent-color-thr);
 }
 
+
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+  color: var(--accent-color-logo);
+}
+
 .mail-link:hover,
 .mail-link:focus {
   color: var(--accent-color-logo);
@@ -438,8 +444,8 @@ body {
   fill: #757575;
 }
 
-.clients-list-link:focus,
-.clients-list-link:hover {
+.clients-logo-link:focus,
+.clients-logo-link:hover {
   border-color: var(--accent-color-logo);
   fill: var(--accent-color-logo);
 }
