@@ -444,8 +444,8 @@ body {
   fill: #757575;
 }
 
-.clients-logo-link:focus .clients-list-icon 
-.clients-logo-link:hover .clients-list-icon {
+.clients-list-link:focus .clients-list-icon 
+.clients-list-link:hover .clients-list-icon {
   border: 1px solid var(--accent-color-logo);
   fill: var(--accent-color-logo);
   cursor: pointer;
