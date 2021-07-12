@@ -162,6 +162,11 @@ body {
   fill: var(--accent-color-logo);
 }
 
+.header-contacts-link:hover .tel-icon,
+.header-contacts-link:focus .tel-icon {
+  fill: var(--accent-color-logo);
+}
+
 .mail-link:hover,
 .mail-link:focus {
   color: var(--accent-color-logo);
@@ -444,9 +449,9 @@ body {
   fill: #757575;
 }
 
-.clients-list-link:focus .clients-list-icon 
-.clients-list-link:hover .clients-list-icon {
-  border: 1px solid var(--accent-color-logo);
+.clients-link-icon:hover .clients-list-icon 
+.clients-link-icon:focus .clients-list-icon {
+  border-color: var(--accent-color-logo);
   fill: var(--accent-color-logo);
   cursor: pointer;
 }
