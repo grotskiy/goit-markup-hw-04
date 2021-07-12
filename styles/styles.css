@@ -444,10 +444,11 @@ body {
   fill: #757575;
 }
 
-.clients-logo-link:focus,
-.clients-logo-link:hover {
-  border-color: var(--accent-color-logo);
+.clients-logo-link:focus .clients-list-icon 
+.clients-logo-link:hover .clients-list-icon {
+  border: 1px solid var(--accent-color-logo);
   fill: var(--accent-color-logo);
+  cursor: pointer;
 }
 
 .clients-list-icon {
@@ -475,12 +476,14 @@ body {
   letter-spacing: 0.03em;
   border-radius: 4px;
   border: none;
+  cursor: pointer;
   background-color: var(--accent-background-color-sec);
 }
 
 .port-modal-btn:hover,
 .port-modal-btn:focus {
   background-color: var(--accent-background-color);
+  cursor: pointer;
 }
 
 .port-modal-btn.current{
