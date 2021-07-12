@@ -157,8 +157,8 @@ body {
 }
 
 
-.header-contacts-link:hover,
-.header-contacts-link:focus {
+.header-contacts-link:hover .mail-icon,
+.header-contacts-link:focus .mail-icon {
   fill: var(--accent-color-logo);
 }
 
