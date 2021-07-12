@@ -440,23 +440,24 @@ body {
   justify-content: center;
 }
 
-.clients-list-link {
-
-}
-
 .clients-list-icon {
   width: 170px;
   height: 92px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
-  fill: #757575;
+  fill: var(--accent-color-thr);
 }
 
 .clients-list-link:hover .clients-list-icon 
 .clients-list-link:focus .clients-list-icon {
-  border: 1px solid #2196F3;
-  fill: #2196F3;
-  cursor: pointer;
+  fill: var(--accent-color-logo);
+
+}
+
+.clients-list-link:hover,
+.clients-list-link:focus {
+  border-color: var(--accent-color-logo);
+
 }
 
 /* portfolio */
