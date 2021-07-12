@@ -448,13 +448,13 @@ body {
   height: 92px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
-  fill: #AFB1B8;
+  fill: var(--accent-color-fth);
 }
 
 .clients-list-link:hover .clients-icon, 
 .clients-list-link:focus .clients-icon {
-  border: 1px solid #2196F3;
-  fill: #2196F3;
+  border-color: var(--accent-color-logo);
+  fill: var(--accent-color-logo);
   cursor: pointer;
 }
 
