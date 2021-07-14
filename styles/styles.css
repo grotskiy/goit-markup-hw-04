@@ -450,7 +450,7 @@ body {
 
 .clients-list-link:hover .clients-icon,
 .clients-list-link:focus .clients-icon {
-  border-color: var(--accent-color-logo);
+  border-color: #2196f3;
   fill: #2196f3;
 }
 
