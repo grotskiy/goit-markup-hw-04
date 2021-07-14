@@ -436,20 +436,20 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
 .clients-item {
   display: flex;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
 }
 
 .clients-icon {
   fill: #afb1b8;
 }
 
-.clients-item:hover .clients-icon,
-.clients-item:focus .clients-icon {
+.clients-list-link:hover .clients-icon,
+.clients-list-link:focus .clients-icon {
   border-color: #2196f3;
   fill: #2196f3;
 }
