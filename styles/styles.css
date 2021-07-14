@@ -428,14 +428,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.clients-item {  
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   fill: #afb1b8;
+}
+
+.clients-item {
 }
 
 .clients-icon {
