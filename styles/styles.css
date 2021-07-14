@@ -450,8 +450,8 @@ body {
   fill: #afb1b8;
 }
 
-.clients-list-link:hover .clients-icon,
-.clients-list-link:focus .clients-icon {
+.clients-list-link:focus,
+.clients-list-link:hover {
   border-color: var(--accent-color-logo);
   fill: #2196f3;
 }
