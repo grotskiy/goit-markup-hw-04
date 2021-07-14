@@ -380,6 +380,7 @@ body {
 .social-list {
   display: flex;
   justify-content: space-between;
+  padding-top: 16px;
 }
 
 .social-list-item {
@@ -392,7 +393,7 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  fill: #757575;
+  fill: #AFB1B8;
   background-color: var(--accent-color-four);
 }
 
@@ -429,16 +430,16 @@ body {
   justify-content: space-between;
 }
 
-.clients-item {
-}
-
-.clients-icon {
+.clients-item {  
   width: 170px;
   height: 92px;
-  padding: 16px 32px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   fill: #afb1b8;
+}
+
+.clients-icon {
+
 }
 
 .clients-icon:hover,
