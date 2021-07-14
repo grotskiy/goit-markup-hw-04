@@ -430,6 +430,10 @@ body {
   justify-content: space-between;
 }
 
+.clients-list-link {
+
+}
+
 .clients-item {
   width: 170px;
   height: 92px;
