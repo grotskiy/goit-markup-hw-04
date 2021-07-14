@@ -435,6 +435,9 @@ body {
 }
 
 .clients-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
@@ -445,8 +448,8 @@ body {
   fill: #afb1b8;
 }
 
-.clients-icon:hover,
-.clients-icon:focus {
+.clients-icon:hover .clients-item,
+.clients-icon:focus .clients-item {
   border-color: var(--accent-color-logo);
   fill: #2196f3;
 }
