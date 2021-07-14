@@ -448,8 +448,8 @@ body {
   fill: #afb1b8;
 }
 
-.clients-list-link:hover,
-.clients-list-link:focus {
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon {
   border-color: #2196f3;
   fill: #2196f3;
 }
