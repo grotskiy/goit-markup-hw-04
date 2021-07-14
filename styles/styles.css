@@ -433,6 +433,9 @@ body {
 .clients-list-link {
   width: 100%;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .clients-item {
@@ -447,8 +450,8 @@ body {
   fill: #afb1b8;
 }
 
-.clients-icon:hover .clients-item,
-.clients-icon:focus .clients-item {
+.clients-list-link:hover,
+.clients-list-link:focus {
   border-color: var(--accent-color-logo);
   fill: #2196f3;
 }
